@@ -1,0 +1,21 @@
+{
+  "name": "playwright-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agataDeviniti/playwright-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agataDeviniti/playwright-workshop/issues"
+  },
+  "homepage": "https://github.com/agataDeviniti/playwright-workshop#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}
