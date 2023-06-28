@@ -15,6 +15,6 @@ test('RTM-1 - create test case with summary and component', async ({ page }) => 
 
   // 7. Znajdź utworzony Test Case w tabeli i przejdź do niego
 
-  // 8. Sprawdź, czy pola summary oraz components sa uzupełnione
+  // 8. Sprawdź, czy pola summary oraz components są uzupełnione
 
 });
