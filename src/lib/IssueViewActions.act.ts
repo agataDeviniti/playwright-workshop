@@ -11,13 +11,12 @@ export default class IssueViewActions {
         this.iframe = page.frameLocator(iframes.projectMainView);
     }
 
-
     assertFieldIsVisible = {
         summary: async (summary: string): Promise<void> => {
-            await expect(this.iframe.locator(issueViewPO.summary)).toHaveText(summary)
+            await expect(this.iframe.locator(issueViewPO.summary)).toHaveText(summary);
         },
         components: async (componentValue: string): Promise<void> => {
-            await expect(this.iframe.locator(issueViewPO.component).getByText(componentValue, {exact:true})).toBeVisible()
+            await expect(this.iframe.locator(issueViewPO.component).getByText(componentValue, { exact: true })).toBeVisible();
         },
     };
 }

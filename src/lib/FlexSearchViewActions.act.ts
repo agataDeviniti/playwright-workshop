@@ -15,8 +15,8 @@ export default class FlexSearchViewActions {
     async openCreateIssueView(): Promise<void> {
         await this.iframe.locator(flexSearchViewPO.button.createTestCase).click();
     }
-async findIssue(summary:string):Promise<void> {
-    await this.iframe.locator(flexSearchViewPO.table.summaryColumn).getByText(summary, {exact: true}).click();
 
-}
+    async findIssue(summary:string):Promise<void> {
+        await this.iframe.locator(flexSearchViewPO.table.summaryColumn).getByText(summary, { exact: true }).click();
+    }
 }

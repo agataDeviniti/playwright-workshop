@@ -13,16 +13,16 @@ export default class NavigationActions {
     }
 
     async navigateToTestManagement(): Promise<void> {
-        await this.page.goto(url.testManagement)
+        await this.page.goto(url.testManagement);
     }
 
     async skipSpotlightDialog(): Promise<void> {
-        await this.iframe.locator(navigationPagePO.spotlight.button.skip).click()
+        await this.iframe.locator(navigationPagePO.spotlight.button.skip).click();
     }
 
     navigateToView = {
         testCases: async (): Promise<void> => {
-            await this.iframe.locator(navigationPagePO.navigationBar.testCases).click()
+            await this.iframe.locator(navigationPagePO.navigationBar.testCases).click();
         },
     };
 }

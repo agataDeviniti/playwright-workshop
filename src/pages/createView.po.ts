@@ -3,12 +3,12 @@ const createView = {
         back: 'button[data-testid*="-new-Back"]',
         create: 'button[data-testid*="-new-Create-button"]',
     },
-    field:{
+    field: {
         summary: '[data-testid="field-summary"] input',
-        component:{
+        component: {
             input: '[data-testid="field-components"] input[type="text"]',
-            option:' [class$="-menu"] div[id*="-option-"]',
-        }
+            option: '[class$="-menu"] div[id*="-option-"]',
+        },
     },
 };
 

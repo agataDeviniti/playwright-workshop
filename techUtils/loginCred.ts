@@ -1,6 +1,6 @@
 import CONFIG from './.env';
 
-export const cloud = {
+const cloud = {
     instanceName: CONFIG.cloud.instanceName,
     url: `https://${CONFIG.cloud.instanceName}.atlassian.net`,
     get users() {
@@ -14,3 +14,5 @@ export const cloud = {
         };
     },
 };
+
+export default cloud;

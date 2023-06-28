@@ -1,5 +1,5 @@
 import { test as baseTest } from '@playwright/test';
-import RtmActionsContainer from '../src/lib/ActionsContainer.act'
+import RtmActionsContainer from './lib/ActionsContainer.act';
 
 const test = baseTest.extend<{
     rtmPage: RtmActionsContainer;

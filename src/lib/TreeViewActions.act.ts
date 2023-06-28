@@ -18,6 +18,6 @@ export default class TreeViewActions {
 
     async deleteIssue(): Promise<void> {
         await this.iframe.locator(treeViewPO.actions.trashIcon).click();
-        await this.iframe.locator(modalsPO.deleteModal.button.deletePermanently).click();  
+        await this.iframe.locator(modalsPO.deleteModal.button.deletePermanently).click();
     }
 }

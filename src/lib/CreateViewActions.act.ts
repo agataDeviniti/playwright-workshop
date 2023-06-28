@@ -22,6 +22,7 @@ export default class CreateViewActions {
         },
         components: async (componentValue: string): Promise<void> => {
             await this.iframe.locator(createViewPO.field.component.input).fill(componentValue);
-            await this.iframe.locator(createViewPO.field.component.option).getByText(componentValue, {exact: true}).click();        },
+            await this.iframe.locator(createViewPO.field.component.option).getByText(componentValue, { exact: true }).click();
+        },
     };
 }

@@ -17,6 +17,11 @@
   "homepage": "https://github.com/agataDeviniti/playwright-workshop#readme",
   "devDependencies": {
     "@playwright/test": "^1.35.1",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "playwright-core": "^1.35.1"
   },
   "dependencies": {

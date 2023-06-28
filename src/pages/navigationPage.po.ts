@@ -1,7 +1,7 @@
 const navigationPage = {
     spotlight: {
-            button: {
-                skip:'[data-testid="spotlight--dialog"] button:has-text("Skip")',
+        button: {
+            skip: '[data-testid="spotlight--dialog"] button:has-text("Skip")',
         },
     },
     navigationBar: {
