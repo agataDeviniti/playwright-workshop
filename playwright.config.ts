@@ -5,6 +5,10 @@ import {} from './techUtils/global-setup'
  */
 export default defineConfig({
   globalSetup: require.resolve('./techUtils/global-setup.ts'),
+  timeout: 60 * 10000,
+  expect: {
+      timeout: 6 * 1000,
+  },
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -29,6 +33,7 @@ export default defineConfig({
         channel: 'chrome',
         headless: true,
     },
+    trace: 'retain-on-failure',
     storageState: 'techUtils/storageState/cloud/adminStorageStateCloud.json',
   },
     },

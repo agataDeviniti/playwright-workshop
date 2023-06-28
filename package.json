@@ -18,5 +18,8 @@
   "devDependencies": {
     "@playwright/test": "^1.35.1",
     "playwright-core": "^1.35.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.11"
   }
 }
