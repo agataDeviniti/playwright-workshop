@@ -19,4 +19,10 @@ export default class IssueViewActions {
             await expect(this.iframe.locator(issueViewPO.component).getByText(componentValue, { exact: true })).toBeVisible();
         },
     };
+
+    async getIssueKey(): Promise<string> {
+        const issueKey = await this.iframe.locator(issueViewPO.issueKey).textContent();
+
+        return issueKey !== null ? issueKey : '';
+    }
 }
