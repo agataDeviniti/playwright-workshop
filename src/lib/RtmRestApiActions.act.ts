@@ -1,5 +1,4 @@
 import { APIRequestContext, expect } from '@playwright/test';
-import cloud from '../../techUtils/loginCred';
 
 const headers = {
     Authorization: 'Bearer eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiI4NTIifQ.NceRpayI3jQL-D94874bpUFJXPGM3ZYYxWQx8NxaluJHjG--0ID63IjzN60B1p0V',
